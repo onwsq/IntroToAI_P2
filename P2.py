@@ -65,8 +65,6 @@ class P2:
     print("\nactual iris types:")
     print(y_test)
 
-
-
     print("\nresults\n")
     target_names = ['setosa', 'versicolor', 'virginica']
     results = classification_report(y_test, y_prediction, target_names = target_names)
